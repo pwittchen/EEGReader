@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/ic_bluetooth_connect_or_disconnect"
+            android:title="@string/bluetooth_connect_or_disconnect"
+            android:icon="@drawable/ic_menu_device_access_bluetooth_connected"
+            android:showAsAction="always"/>
+    <item
+            android:id="@+id/ic_settings"
+            android:title="@string/settings"
+            android:icon="@drawable/ic_menu_action_settings"
+            android:showAsAction="always"/>
+</menu>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.pwittchen.eegreader"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="7"/>
+
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name"
+            android:name="com.pwittchen.eegreader.generics.GenericApplication"
+            android:theme="@style/Theme.Sherlock.Light.DarkActionBar">
+        <activity
+                android:name="com.pwittchen.eegreader.activity.SplashScreenActivity"
+                android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.pwittchen.eegreader.activity.ConnectActivity"
+                android:theme="@style/Theme.Sherlock.Light.NoActionBar"/>
+        <activity
+                android:name="com.pwittchen.eegreader.activity.MainActivity"
+                android:logo="@drawable/ic_menu_home"
+                android:configChanges="orientation|keyboardHidden"/>
+        <activity
+                android:name="com.pwittchen.eegreader.activity.SettingsActivity"
+                android:label="@string/settings"
+                android:logo="@drawable/ic_menu_home"/>
+
+    </application>
+</manifest>

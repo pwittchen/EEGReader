@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EEG Reader</string>
+    <string name="for_neurosky_mobile">for NeuroSky Mobile</string>
+
+    <!-- initial messages -->
+    <string name="no_signal_waiting">No signal. Waiting...</string>
+    <string name="touch_to_connect_with_neurosky">Touch to connect with NeuroSky</string>
+    <string name="initializing">Initializing...</string>
+
+    <!-- states -->
+    <string name="connected_to_device">Connected to device.</string>
+    <string name="connecting_to_device">Connecting to device...</string>
+    <string name="disconnected_from_device">Disconnected from device.</string>
+    <string name="device_is_idle">Device is idle.</string>
+    <string name="device_not_found">Device was not found.</string>
+    <string name="device_not_paired">Device is not paired.</string>
+
+    <!-- signals -->
+    <string name="attention_level">Attention level</string>
+    <string name="meditation_level">Meditation level</string>
+    <string name="blink_level">Blink level</string>
+    <string name="raw_data">Raw data</string>
+
+    <!-- brain waves -->
+    <string name="wave_alpha_high">High Alpha</string>
+    <string name="wave_alpha_low">Low Alpha</string>
+    <string name="wave_beta_high">High Beta</string>
+    <string name="wave_beta_low">Low Beta</string>
+    <string name="wave_delta">Delta</string>
+    <string name="wave_gamma_low">Low Gamma</string>
+    <string name="wave_gamma_mid">Mid Gamma</string>
+    <string name="wave_theta">Theta</string>
+
+    <!-- BlueTooth -->
+    <string name="bluetooth_is_not_available">Bluetooth is not available.</string>
+    <string name="please_activate_bluetooth">Please, activate Bluetooth.</string>
+
+    <!-- actionbar menu item -->
+    <string name="bluetooth_connect_or_disconnect">Connect or disconnect from bluetooth</string>
+    <string name="settings">Settings</string>
+
+    <!-- SettingsActivity -->
+    <string name="keep_screen_turned_on">Keep screen turned on</string>
+    <string name="save_eeg_and_eye_blinkng_data">Save EEG and eye blinking data</string>
+    <string name="enable_voice_feedback">Enable voice feedback</string>
+    <string name="export_data_to_csv">Export data to *.csv file</string>
+    <string name="clear_data_on_device">Clear data on device</string>
+    <string name="app_author_note">Application created by: Piotr Wittchen\nhttp://wittchen.biz.pl</string>
+    <string name="app_author_website">http://wittchen.biz.pl</string>
+    <string name="clear_data_question">Clear signal data?</string>
+    <string name="clearing_data">Clearing data</string>
+    <string name="clearing_in_progress">Clearing in progress...</string>
+    <string name="data_cleared">Data cleared.</string>
+    <string name="export_data_question">Export signal data?</string>
+    <string name="exporting_data">Exporting data</string>
+    <string name="export_in_progress">Export in progress...</string>
+    <string name="data_exported">Data exported.</string>
+    <string name="uploading_data">Uploading data</string>
+    <string name="upload_in_progress">Upload in progress...</string>
+    <string name="file_not_found">File not found.</string>
+    <string name="error_during_upload">Error during upload.</string>
+    <string name="please_turn_on_wifi">Please, turn on WiFi and relaunch settings.</string>
+    <string name="no_data_to_export">No data to export.</string>
+    <string name="number_of_saved_signals">Number of signals saved on device:</string>
+    <string name="number_of_saved_signals_default">Number of signals saved on device: 0</string>
+
+    <!-- PromptDialog -->
+    <string name="close_application_question">Close application?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- TextToSpeech -->
+    <string name="voice_feedback_activated">Voice feedback activated</string>
+    <string name="high_attention_acquired">High attention level acquired.</string>
+    <string name="high_meditation_acquired">High meditation level acquired.</string>
+
+</resources>

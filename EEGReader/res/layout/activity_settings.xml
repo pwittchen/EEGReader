@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/medium_padding">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/medium_margin">
+
+            <CheckBox
+                android:id="@+id/cb_keep_screen_turned_on"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/keep_screen_turned_on"
+                android:padding="@dimen/medium_padding"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/thin_line_height"
+            android:layout_marginTop="@dimen/medium_margin"
+            android:background="@color/light_blue" />
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_marginTop="@dimen/medium_margin">-->
+
+            <!--<CheckBox-->
+                <!--android:id="@+id/cb_save_eeg_and_eye_blinking_data"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/save_eeg_and_eye_blinkng_data"-->
+                <!--android:padding="@dimen/medium_padding"-->
+                <!--android:gravity="center" />-->
+        <!--</LinearLayout>-->
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="@dimen/thin_line_height"-->
+            <!--android:layout_marginTop="@dimen/medium_margin"-->
+            <!--android:background="@color/light_blue" />-->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/medium_margin">
+
+            <CheckBox
+                android:id="@+id/cb_enable_voice_feedback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/enable_voice_feedback"
+                android:padding="@dimen/medium_padding"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/thin_line_height"
+            android:layout_marginTop="@dimen/medium_margin"
+            android:background="@color/light_blue" />
+
+        <!--<Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="@dimen/medium_margin"-->
+            <!--android:text="@string/export_data_to_csv"-->
+            <!--android:drawableRight="@drawable/ic_upload"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:onClick="exportDataToDropbox" />-->
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="@dimen/thin_line_height"-->
+            <!--android:layout_marginTop="@dimen/medium_margin"-->
+            <!--android:background="@color/light_blue" />-->
+
+        <!--<Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="@dimen/medium_margin"-->
+            <!--android:text="@string/clear_data_on_device"-->
+            <!--android:drawableRight="@drawable/ic_discard"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:onClick="clearDataOnDevice" />-->
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="@dimen/thin_line_height"-->
+            <!--android:layout_marginTop="@dimen/medium_margin"-->
+            <!--android:background="@color/light_blue" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_saved_signals_count"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="@dimen/medium_margin"-->
+            <!--android:text="@string/number_of_saved_signals_default" />-->
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="@dimen/thin_line_height"-->
+            <!--android:layout_marginTop="@dimen/medium_margin"-->
+            <!--android:background="@color/light_blue" />-->
+
+        <TextView
+            android:id="@+id/tv_app_author_note"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/medium_margin"
+            android:text="@string/app_author_note" />
+
+    </LinearLayout>
+</ScrollView>
