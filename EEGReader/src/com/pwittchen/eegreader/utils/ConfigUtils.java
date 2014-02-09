@@ -10,6 +10,6 @@ public class ConfigUtils {
 
     public static String generateNewCSVFileName() {
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyyMMdd_HHmmss");
-        return ("egg_analyzer_data_" + dateFormat.format(new Date()) + ".csv");
+        return ("egg_reader_data_" + dateFormat.format(new Date()) + ".csv");
     }
 }
