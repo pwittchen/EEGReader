@@ -12,4 +12,4 @@ This application is able to connect to NeuroSky Mobile device via Bluetooth and 
 Screenshots
 ===============
 
-![Screenshot](screenshot.png "Screenshot")
+![Screenshot](application_screenshot.png "Screenshot")
