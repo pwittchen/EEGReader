@@ -2,6 +2,7 @@ EEG Reader
 ===============
 
 EEG Reader is a boilerplate project for object-oriented mobile Android applications using NeuroSky Mobile device.
+This project is a basis for development of the further, more advanced projects (e.g. EEG Analyzer and EEG Controller).
 This application is able to connect to NeuroSky Mobile device via Bluetooth and read: 
 * attention level
 * meditation level
