@@ -22,3 +22,8 @@ Screenshots
 ===============
 
 ![Screenshot](application_screenshot.png "Screenshot")
+
+Links
+===============
+* http://neurosky.com/
+* http://slid.es/piotrwittchen/brain-computer-interface-for-mobile-devices
