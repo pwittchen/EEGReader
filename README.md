@@ -11,14 +11,14 @@ This application is able to connect to NeuroSky Mobile device via Bluetooth and 
 * blink level
 * raw data
 * brainwaves: 
- * delta
- * theta
- * low alpha
- * high alpha
- * low beta
- * high beta
- * low gamma
- * mid gamma
+  * delta
+  * theta
+  * low alpha
+  * high alpha
+  * low beta
+  * high beta
+  * low gamma
+  * mid gamma
 
 Screenshots
 ===============
