@@ -1,7 +1,7 @@
 EEG Reader
 ===============
 
-This project is **DEPRECATED** and no longer maintained. It has old Android project sctructure and code style.
+This project is **DEPRECATED** and no longer maintained. It has old Android project structure and code style.
 
 If you are interested in development of the Android apps for NeuroSky MindWave Mobile, check out my new project: [**NeuroSky Android SDK**](https://github.com/pwittchen/neurosky-android-sdk) at https://github.com/pwittchen/neurosky-android-sdk and its sample apps in Java and Kotlin.
 
