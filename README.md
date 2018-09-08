@@ -3,7 +3,9 @@ EEG Reader
 
 This project is **DEPRECATED** and no longer maintained. It has old Android project structure and code style.
 
-If you are interested in development of the Android apps for NeuroSky MindWave Mobile, check out my new project: [**NeuroSky Android SDK**](https://github.com/pwittchen/neurosky-android-sdk) at https://github.com/pwittchen/neurosky-android-sdk and its sample apps in Java and Kotlin.
+If you are interested in development of the Android apps for NeuroSky MindWave Mobile, check out my new project: 
+
+[**NeuroSky Android SDK**](https://github.com/pwittchen/neurosky-android-sdk) at https://github.com/pwittchen/neurosky-android-sdk and its sample apps in Java and Kotlin.
 
 EEG Reader is a boilerplate project for object-oriented mobile Android applications using NeuroSky Mobile device.
 This project is a basis for development of the further, more advanced projects (e.g. EEG Analyzer and EEG Controller).
